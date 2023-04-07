@@ -80,6 +80,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAO\DataProvider.cs" />
+    <Compile Include="fChangePassWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fChangePassWord.Designer.cs">
+      <DependentUpon>fChangePassWord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fCreateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCreateUser.Designer.cs">
+      <DependentUpon>fCreateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fDropUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDropUser.Designer.cs">
+      <DependentUpon>fDropUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="fLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +136,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fChangePassWord.resx">
+      <DependentUpon>fChangePassWord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fCreateUser.resx">
+      <DependentUpon>fCreateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fDropUser.resx">
+      <DependentUpon>fDropUser.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fLogin.resx">
       <DependentUpon>fLogin.cs</DependentUpon>
     </EmbeddedResource>

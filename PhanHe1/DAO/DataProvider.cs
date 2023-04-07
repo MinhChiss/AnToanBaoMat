@@ -12,7 +12,7 @@ namespace PhanHe1.DAO
 {  
     public class DataProvider
     {
-        static string host = "192.168.57.1";
+        static string host = "localhost";
         static int port = 1521;
         static string sid = "xe";
         static string user = "admin";
